@@ -2,7 +2,7 @@ type PersonListProps = {
 	names: {
 		first: string;
 		last: string;
-	}[];
+	}[]; // Array of objects
 };
 
 const PersonList = (props: PersonListProps) => {

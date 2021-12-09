@@ -1,6 +1,8 @@
+// 3 - Typing props
+
 type GreetProps = {
 	name: string;
-	messageCount?: number;
+	messageCount?: number; // optional prop
 	isLoggedIn: boolean;
 };
 
