@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import HooksApp from "./components/HooksApp";
 import "./index.css";
-import App from "./PropsApp";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<HooksApp />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
